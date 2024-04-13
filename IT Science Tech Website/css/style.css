@@ -1,0 +1,1277 @@
+#right{
+	padding: 10px;
+}
+#frmRegistration{
+	
+	width: 900px;
+	margin-left: 250px;
+}
+#frmRegistration h1
+{
+	padding-left: 140px;
+	padding-bottom: 15px;
+}
+#frmRegistration form{
+	margin-left: 150px;
+}
+#account{
+	margin-left: 400px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tinos", serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tinos", serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* header css */
+
+.header-top {
+  width: 100%;
+}
+
+.header-top .navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  margin-right: 80px;
+}
+
+.header-top .navbar-expand-lg .navbar-nav .nav-link {
+  color: #ffffff;
+  margin-left: 15px;
+  font-family: "Tinos", serif;
+  font-size: 18px;
+}
+
+.header-top .navbar-brand img {
+  width: 60px;
+  height: 60px;
+}
+
+.header-top .btn-outline-success {
+  --bs-btn-color: #ffffff;
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ff6e31;
+  --bs-btn-hover-border-color: ##ff6e31;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ff6e31;
+  --bs-btn-active-border-color: #ff6e31;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #ff6e31;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #ff6e31;
+  --bs-gradient: none;
+}
+
+/* banner css */
+
+.banner {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../img/1.jpg") center top no-repeat;
+  background-size: cover;
+}
+.inner-banner {
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+}
+
+.banner h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  margin: 0px 0px 0px;
+}
+.banner span {
+  color: #ff6e31;
+}
+.banner h4 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.banner p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0px 0px 25px;
+}
+.banner .inner-banner .btn-success {
+  padding: 12px 40px;
+  border-radius: 35px;
+  margin: 0px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #ff6e31;
+  border: 1px solid #ff6e31;
+  transition: 1s;
+  text-transform: capitalize;
+}
+
+.banner .inner-banner .btn-success:hover {
+  color: #ff6e31;
+  background: transparent;
+  border: 1px solid #ff6e31;
+}
+.banner .inner-banner .btn-success:focus {
+  color: #ff6e31;
+  background: transparent;
+  border: 1px solid #ff6e31;
+}
+
+/* video css */
+
+.video {
+  width: 100%;
+  padding: 40px 0px;
+  background: #257153;
+}
+
+.video .video-text {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+}
+
+.video .video-content {
+  margin: 0px 0px 30px 0px;
+}
+
+.video .video-content a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 5px 0px 0px 0px;
+}
+
+/* about-us css */
+.about-us {
+  width: 100%;
+  padding: 80px 0px;
+  background: #243644;
+}
+
+.about-inner {
+  width: 100%;
+  margin: 40px 0px 0px;
+  align-items: center;
+}
+
+.about-us .tittle {
+  width: 100%;
+}
+
+.about-us .tittle h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: 0px 0px 20px;
+}
+
+.about-us .tittle p {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0px 0px 25px;
+  padding: 0px 81px 0px 0px;
+}
+
+/* course css */
+
+.course {
+  width: 100%;
+  padding: 40px 0px 50px;
+  background: #257153;
+}
+.course .course-content h3 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+}
+
+.course .course-card {
+  background: #243644;
+  text-align: center;
+  padding: 80px 40px;
+  border-radius: 10px;
+}
+
+.course .course-card img {
+  margin: 0px 0px 10px 0px;
+}
+.course .course-card .card-body a {
+  font-weight: 600;
+  font-family: "Tinos", serif;
+  font-size: 25px;
+  line-height: 35px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px 0px 30px 0px;
+  cursor: pointer;
+}
+
+.course .course-card .enroll {
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+
+/* registration course css */
+
+.registration .r-form {
+  padding: 20px 30px;
+  background-color: #eee;
+}
+.here {
+  color: brown;
+}
+.form-content p {
+  font-size: 16px;
+}
+.main-group.form-content {
+  width: 100%;
+}
+.registration .form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: 600;
+  color: brown;
+}
+
+.registration .form-control {
+  border: 1px solid black;
+  width: 100%;
+  height: 38px;
+  padding-left: 8px;
+}
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+.form-control option {
+  color: rgb(118, 118, 118);
+}
+.form-group .btn-submit {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.gender-box1 {
+  padding: 8px 0px 9px 4px;
+}
+.birth-control {
+  border: 1px solid black;
+  width: 100%;
+  height: 38px;
+}
+.textarea {
+  width: 100%;
+}
+
+/* product css */
+
+.section-products {
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.section-products .header {
+  margin-bottom: 50px;
+}
+
+.section-products .header h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.section-products .single-product {
+  margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+  position: relative;
+  height: 290px;
+  max-height: 290px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+  transform: scale(1.2, 1.2) rotate(5deg);
+}
+
+.section-products #product-1 .part-1::before {
+  background: url("../img/a4-tech-comfortfit-stereo-headset-hs-19.jpeg") center
+    no-repeat;
+  background-size: cover;
+  transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+  background: url("../img/a4tech_bloody_j90s_2-fire_rgb_animation_gaming_mouse.jpg")
+    center no-repeat;
+  background-size: cover;
+  background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+  background: url("../img/MAONO AU-A04 USB Micro phone.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+  background: url("../img/godox-softbox-with-aluminum-alloy-reflector-and-sticks-60x60cm-or-60x90cm.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+.section-products #product-5 .part-1::before {
+  background: url("../img/digipod_tr-688v.jpg") center no-repeat;
+  background-size: cover;
+}
+.section-products #product-6 .part-1::before {
+  background: url("../img/maonocaster_lite_au-am200.jpg") center no-repeat;
+  background-size: cover;
+}
+.section-products #product-7 .part-1::before {
+  background: url("../img/sound_proof_acoustic_foam_1.jpg") center no-repeat;
+  background-size: cover;
+}
+.section-products #product-8 .part-1::before {
+  background: url("../img/xiaomi-wifi-repeater-pro-dual-antenna-300m.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #ffffff;
+  background-color: #fe302f;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+  left: 0;
+  background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+  position: absolute;
+  bottom: -41px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ffffff;
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+  transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+  color: #fe302f;
+}
+
+.section-products .single-product .part-2 .product-title {
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+  position: relative;
+  padding: 0 7px;
+  margin-right: 2px;
+  opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #444444;
+  transform: translateY(-50%);
+}
+
+/* client review css */
+
+.review {
+  width: 100%;
+  padding: 40px 0px;
+  background: #257153;
+}
+
+.review .inner-review h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+  text-transform: capitalize;
+}
+
+figure.snip1157 {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.snip1157 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+figure.snip1157 img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin: 40px 0 0 10px;
+}
+figure.snip1157 blockquote {
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 25px 50px 30px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+}
+figure.snip1157 blockquote:before,
+figure.snip1157 blockquote:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1157 blockquote:before {
+  top: 25px;
+  left: 20px;
+}
+figure.snip1157 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+figure.snip1157 .arrow {
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fafafa;
+  margin: 0;
+  position: absolute;
+}
+figure.snip1157 .author {
+  position: absolute;
+  bottom: 45px;
+  padding: 0 10px 0 120px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+figure.snip1157 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1157 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 5px;
+}
+
+/* Demo purposes only */
+
+/* Statistics css  */
+
+.Statistics {
+  width: 100%;
+  padding: 40px 0px;
+  background: #243644;
+}
+
+.Statistics .inner-Statistics {
+  width: 100%;
+  text-align: center;
+}
+
+.Statistics .inner-Statistics h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+  text-transform: capitalize;
+}
+.Statistics .inner-Statistics p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 309px;
+}
+
+.Statistics .number-count {
+  text-align: center;
+  color: #ffffff;
+  margin: 60px 0px 0px 0px;
+}
+
+.Statistics .number-count h4 {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+  margin: 0px;
+}
+.Statistics .number-count p {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+/* contact-us css */
+
+.contact-us {
+  width: 100%;
+  padding: 40px 0px 0px;
+  background: #257153;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-us .tittle-contact {
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px 40px;
+}
+
+.contact-us .tittle-contact h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+  text-transform: capitalize;
+}
+
+.comunication {
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px 0px 12px;
+}
+
+.comunication img {
+  width: 35px;
+  height: 35px;
+  margin: 0px 0px 20px 0px;
+}
+
+.comunication p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.registration .r-form {
+    padding: 20px 30px;
+    background-color: #257153;
+}
+
+.registration {
+  width: 100%;
+  background: #257153;
+}
+
+.registration .form-group {
+  width: 50%;
+  margin: 0px 0px 20px 250px;
+  font-size: 20px;
+  text-align: center;
+}
+.registration .main-form {
+  width: 100%;
+  padding: 50px 70px 40px;
+  background: #257153;
+  margin: 0px 0px 0px;
+}
+
+.registration .form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid #ffffff;
+  margin-top: 5px;
+}
+
+.registration .form-group label {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: 600;
+  color: white;
+  text-align: start;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.registration button[type="submit"] {
+  width: 50%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: rgb(27, 166, 247);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease;
+  background: #243644;
+  margin: 0px 0px 0px 250px;
+}
+
+.registration button[type="submit"]:hover {
+  background-color: #1e2b35;
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.map {
+  width: 100%;
+}
+
+/* footer section css */
+.footer {
+  width: 100%;
+  padding: 40px 0px;
+  background: #15141a;
+}
+
+.footer .icon ul {
+  text-align: center;
+}
+.footer .icon ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+}
+
+.footer .icon ul li a i {
+  font-size: 16px;
+  color: #ffffff;
+  transition: 1s;
+}
+
+.footer .icon ul li a i:hover {
+  color: #ff6e31;
+}
+
+.footer .icon p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.footer .icon p span {
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: 1s;
+}
+
+.footer .icon p span:hover {
+  color: #ff6e31;
+}
+
+/***************** **responsive css** ******************/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS START */
+
+  .course .course-card {
+    background: #243644;
+    text-align: center;
+    padding: 40px 0px;
+    border-radius: 10px;
+  }
+
+  .course .course-card .card-body a {
+    font-weight: 600;
+    font-family: "Tinos", serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+    cursor: pointer;
+  }
+
+  figure.snip1157 blockquote {
+    display: block;
+    border-radius: 8px;
+    position: relative;
+    background-color: #fafafa;
+    padding: 25px 50px 30px 50px;
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.6em;
+    font-style: italic;
+  }
+
+  .Statistics .inner-Statistics p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 80px;
+  }
+
+  .registration .main-form {
+    width: 100%;
+    padding: 50px 0px 40px;
+    background: #257153;
+    margin: 0px 0px 0px;
+  }
+
+  .registration .form-group {
+    width: 50%;
+    margin: 0px 0px 20px 180px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .registration button[type="submit"] {
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+    background: #243644;
+    margin: 0px 0px 0px 180px;
+  }
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 320px to 767px
+*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /* CSS START */
+  .header-top .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+    margin-right: 80px;
+  }
+
+  .header-top .navbar-expand-lg .navbar-nav .nav-link {
+    color: #ffffff;
+    margin-left: 10px;
+    font-family: "Tinos", serif;
+    font-size: 18px;
+  }
+
+  .banner h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    margin: 0px 0px 0px;
+  }
+
+  .banner h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+
+  .video .video-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .about-us .tittle h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px;
+  }
+
+  .about-us .tittle p {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0px 0px 25px;
+    padding: 0px;
+  }
+
+  .course .course-content h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .course .course-card {
+    background: #243644;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 10px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .section-products .header h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  .review .inner-review h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+    text-transform: capitalize;
+  }
+
+  figure.snip1157 {
+    position: relative;
+    overflow: hidden;
+    margin: 0px 0px 10px 0px;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    box-shadow: none !important;
+  }
+
+  figure.snip1157 .author h5 span {
+    font-weight: 400;
+    text-transform: none;
+    padding: 0px;
+    font-size: 16px;
+  }
+
+  .Statistics .inner-Statistics h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+    text-transform: capitalize;
+  }
+
+  .comunication {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 40px 12px;
+  }
+
+  .form-content {
+    margin: 0px -26px 0px 0px;
+  }
+
+  .registration .main-form {
+    width: 100%;
+    padding: 50px 0px 40px;
+    background: #257153;
+    margin: 0px 0px 0px;
+  }
+
+  .registration .form-group {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .registration button[type="submit"] {
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+    background: #243644;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .Statistics .inner-Statistics p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px;
+  }
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+  /* CSS START */
+
+  .header-top .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+    margin-right: 80px;
+  }
+
+  .header-top .navbar-expand-lg .navbar-nav .nav-link {
+    color: #ffffff;
+    margin-left: 10px;
+    font-family: "Tinos", serif;
+    font-size: 18px;
+  }
+
+  .banner h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    margin: 0px 0px 0px;
+  }
+
+  .banner h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+
+  .video .video-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .about-us .tittle h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px;
+  }
+
+  .about-us .tittle p {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0px 0px 25px;
+    padding: 0px;
+  }
+
+  .course .course-content h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .course .course-card {
+    background: #243644;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 10px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .section-products .header h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  .review .inner-review h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+    text-transform: capitalize;
+  }
+
+  figure.snip1157 {
+    position: relative;
+    overflow: hidden;
+    margin: 0px 0px 10px 0px;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    box-shadow: none !important;
+  }
+
+  figure.snip1157 .author h5 span {
+    font-weight: 400;
+    text-transform: none;
+    padding: 0px;
+    font-size: 16px;
+  }
+
+  .Statistics .inner-Statistics h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+    text-transform: capitalize;
+  }
+
+  .comunication {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 40px 12px;
+  }
+
+  .form-content {
+    margin: 0px -26px 0px 0px;
+  }
+
+  .registration .main-form {
+    width: 100%;
+    padding: 50px 0px 40px;
+    background: #257153;
+    margin: 0px 0px 0px;
+  }
+
+  .registration .form-group {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .registration button[type="submit"] {
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+    background: #243644;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .Statistics .inner-Statistics p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px;
+  }
+  /* CSS END */
+}
